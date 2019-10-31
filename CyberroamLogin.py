@@ -36,7 +36,7 @@ passwordBox.send_keys(password)
 
 #Locate the login button using id
 loginBtn = browser.find_element_by_id('logincaption')
-
+#logged in
 #Click the login button
 loginBtn.click()
 
